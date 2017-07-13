@@ -8,6 +8,8 @@ import android.content.Context;
  */
 
 public interface IBaseView {
+     String PRESENTER_ID = "presenterId";
+
     Activity getActivity();
 
     Context getContext();

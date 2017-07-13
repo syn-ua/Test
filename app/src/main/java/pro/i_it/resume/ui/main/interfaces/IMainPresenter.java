@@ -6,4 +6,6 @@ package pro.i_it.resume.ui.main.interfaces;
 
 public interface IMainPresenter {
     void init(IMainView view);
+
+    void finish();
 }

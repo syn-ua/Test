@@ -5,6 +5,7 @@ import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
+import pro.i_it.resume.ui.base.interfaces.IBasePresenter;
 import pro.i_it.resume.ui.base.interfaces.IBaseView;
 
 /**
@@ -34,4 +35,5 @@ public class BaseActivity extends AppCompatActivity implements IBaseView {
         }
         Toast.makeText(this, throwable.getMessage(), Toast.LENGTH_SHORT).show();
     }
+
 }
